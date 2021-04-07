@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="text">
+    <form>
+        <fieldset>
+            <input type="radio" name="ranking" id="sixth-from-top" data-color="indigo" data-abbreviation="Col" checked="checked">
+            <label for="sixth-from-top">Colonel</label>
+            <br>
+
+            <input type="radio" name="ranking" id="fifth-from-top" data-color="blue" data-abbreviation="Bg">
+            <label for="fifth-from-top">Brigadier General</label>
+            <br>
+
+            <input type="radio" name="ranking" id="fourth-from-top" data-color="green" data-abbreviation="Mg">
+            <label for="fourth-from-top">Major General</label>
+            <br>
+
+            <input type="radio" name="ranking" id="third-from-top" data-color="yellow" data-abbreviation="Ltg">
+            <label for="third-from-top">Lieutenant General</label>
+            <br>
+
+            <input type="radio" name="ranking" id="second-from-top" data-color="orange" data-abbreviation="Gen">
+            <label for="second-from-top">General</label>
+            <br>
+
+            <input type="radio" name="ranking" id="top" data-color="red" data-abbreviation="Ga">
+            <label for="top">General of the Army</label>
+            <br>
+        </fieldset>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName">
+        <br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName">
+        <br>
+
+        <button>Click Here for Welcome Message</button>
+    </form>
+    <p id="output"></p>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+<!--Create a form with three fields: rank (at least two radio buttons), first name, and last name<
+When the form is submitted, display an appropriate greeting depending on which rank was chosen. For example:
+Hello, Capt. Julie Park
+Hello, Tsgt. Ramon Sanchez
+Make the text a different color depending on which rank was chosen<
+Ensure your form is accessible! (Hint: Use label elements)
+US Military ranks can be found here: https://www.va.gov/vetsinworkplace/docs/em_rank.html (Links to an external site.)
+Submit the URL of your GitHub Pages site.-->

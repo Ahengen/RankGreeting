@@ -1,0 +1,14 @@
+body{
+    padding-top: 2em;
+    padding-left: 2em;
+    background-image: url("army.jpg");
+    background-color: darkolivegreen;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.text{
+    color: chocolate;
+    font-size: 150%;
+    font-weight: bold;
+}
